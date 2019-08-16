@@ -1,6 +1,8 @@
 1. 定义好的proto放在src/main/resources/proto目录下
+
 2. 定义pom如下 
-  <dependencies>
+
+    <dependencies>
         <dependency>
             <groupId>io.grpc</groupId>
             <artifactId>grpc-all</artifactId>
@@ -21,12 +23,11 @@
         <dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
-			<version>1.2.4</version>
+			<version>1.2.31</version>
 		</dependency>
         
     </dependencies>
-	
-	<build>	
+    <build>	
 		<extensions>
             <extension>
                 <groupId>kr.motd.maven</groupId>
